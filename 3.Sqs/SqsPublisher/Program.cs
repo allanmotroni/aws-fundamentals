@@ -3,7 +3,6 @@ using Amazon.SQS;
 using Amazon.SQS.Model;
 using SqsPublisher;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 
 var sqsClient = new AmazonSQSClient();
 
